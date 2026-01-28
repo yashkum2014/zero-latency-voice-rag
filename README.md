@@ -34,8 +34,8 @@ The system handles conversational follow-up queries such as:
 Before querying the vector database, ambiguous references are resolved using
 conversation history.
 
-Example rewritten query:
-
+**Example rewritten query:**
+Explain step 2 of the router reset procedure
 
 This ensures accurate retrieval and demonstrates context-aware reasoning.
 
