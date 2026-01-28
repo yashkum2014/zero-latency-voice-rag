@@ -14,4 +14,7 @@ when handling complex multi-document queries.
 
 ### 1. Parallelized (Speculative) RAG Pipeline
 Traditional voice pipelines follow a linear flow:
-> This project was implemented as part of a technical evaluation for an SDE internship.
+ASR → RAG → LLM → TTS
+
+This approach introduces high latency. Instead, this system uses speculative execution where RAG and LLM generation begin as soon as partial ASR output is available.
+
